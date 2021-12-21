@@ -11,3 +11,86 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-item {
+  padding: 10px;
+  border: 1px solid rgb(241, 238, 238);
+  border-radius: 3px;
+  width: 500px;
+  background-color: rgb(241, 238, 238);
+  min-height: 100px;
+  display: flex;
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+}
+
+.product-content {
+  position: relative;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.btn {
+  border-radius: 3px;
+  min-width: 100px;
+  margin: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  height: 300px;
+  background-color: bisque;
+  border-radius: 10px;
+}
+
+.modal-content {
+  padding: 10px;
+}
+
+.modalForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalForm label {
+  display: inline-block;
+  width: 120px;
+  margin-bottom: 10px;
+}
+
+.modalForm input {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+}
+
+.modalForm button {
+  padding: 10px;
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 40%;
+}
+
+.btnDiv {
+  display: flex;
+  margin-top: end;
+  margin-left: auto;
+  align-self: flex-end;
+
+}
